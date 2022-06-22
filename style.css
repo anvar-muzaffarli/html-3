@@ -1,0 +1,98 @@
+:root {
+    --icon-rengi:#34495e;
+}
+
+* {
+    margin: 0;
+    /* text-decoration: none; */
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+    height: 7vh;
+    padding: 40px;
+
+  
+}
+
+.nav-links {
+    
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
+    height: 2vh;
+   
+
+}
+
+.nav-links a {
+    color: var(--icon-rengi);
+    font-size: 34px;
+}
+.main {
+    display: flex;
+    height: 80vh;
+    padding-top: 70px;
+}
+.left-side {
+
+    flex-basis: 40%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 14px 12px;
+    background-color: cornsilk;
+    border: none;
+    cursor: pointer;
+}
+
+.left-side > .section-img {
+    width: 50%;
+}
+
+.section-img img {
+    width: 100%;
+}
+.article-section {
+
+    flex:1;
+}
+
+
+
+mark {
+    background:red;
+    color:#fff;
+}
+
+table,tr,th,td {
+    border: 1px solid #dedede;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 10px;
+}
+
+th:hover {
+    background:lime;
+    cursor:pointer;
+
+}
+
+.fname {
+    cursor: not-allowed;
+}
